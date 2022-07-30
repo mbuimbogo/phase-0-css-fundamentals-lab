@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+
+#nav-links {
+  align-items: center;
+  margin-left: 400px;
+
+}
+
+#nav-links a {
+  background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#featured-property {
+  align-items: center;
+}
+
+img {
+  width: 900px;
+  margin-left: 130px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+p {
+  font-size: medium;
+  text-align: center;
+  width:100%;
+  
+  /* margin-left: 100px;  */
+} 
+#featured-property ~p {
+  width: 80px;
+  align-items: center;
+}
+
+#details {
+  /* width: 100%; */
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+}
